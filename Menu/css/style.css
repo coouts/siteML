@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    width: 1200px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+}
+
+p{
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-family: verdana;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+/*Seção do menu */
+
+#containerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 999;
+}
+
+#logoSite{
+    width: 140px;
+    height: inherit;
+    float: left;
+    background-color: bisque;
+}
+
+#menu{
+    width: 900px;
+    height: inherit;
+    float: left;
+    background-color: aquamarine; 
+}
+
+.listaDoMenu{
+    width: inherit;
+    height: inherit;
+}
+
+.itensMenu{
+    width: 180px;
+    height: inherit;
+    float:left;
+    text-align: center;
+    font-family: verdana;
+    font-size: 1.1em;
+    list-style: none;
+    padding-top: 10px;
+}
