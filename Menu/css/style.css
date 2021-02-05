@@ -1,69 +1,158 @@
-*{
+body, ul, li{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-
-.conteudo{
-    width: 1200px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: brown;
-}
-
-p{
-    width: inherit;
-    min-height: 20px;
-    height: auto;
-    overflow: hidden;
-    margin-bottom: 20px;
-    font-family: verdana;
-    font-size: 1em;
-    line-height: 1.5;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10;
-    padding-bottom: 10;
-}
-
-/*Seção do menu */
 
 #containerMenu{
-    width: 100%;
-    height: 50px;
+    width: 1920px;
+    height: 60px;
     background-color: #000000;
-    position: fixed;
-    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#logoSite{
-    width: 140px;
+#logo{
+    width: 220px;
     height: inherit;
     float: left;
-    background-color: bisque;
+    margin-left: 200px;
+      background-image: url(../imagens/logo.png);
+        
 }
 
 #menu{
-    width: 900px;
+    width: 1100px;;
     height: inherit;
-    float: left;
-    background-color: aquamarine; 
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+     margin-right:70px;
 }
 
-.listaDoMenu{
-    width: inherit;
+.menuItem{
+    width: 210px;
     height: inherit;
-}
-
-.itensMenu{
-    width: 180px;
-    height: inherit;
-    float:left;
+    float: left; 
+    list-style: none;
+    color: #ffffff;
     text-align: center;
     font-family: verdana;
-    font-size: 1.1em;
-    list-style: none;
-    padding-top: 10px;
+    font-size: 1em;
+    padding-top: 20px;
+  
 }
+
+.menuItem:hover{
+    color: #51eaf0;
+    cursor: pointer;
+}
+
+.submenu{
+    width: 210px;
+    height: 100px;
+    background-color: #000000;
+    margin-top: 15px;
+    display: none;
+}
+
+.submenuItem{
+    width: 210px;
+    height: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: verdana;
+    font-size: 1em;
+    list-style: none;
+ }
+
+.submenuItem:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: #51eaf0;
+    
+}
+
+.menuItem:hover > .submenu{
+    display: block;
+}
+
+
+.menuItemInst{
+    width: 210px;
+    height: inherit;
+    float: left; 
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: verdana;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.menuItemInst:hover{
+    color: #51eaf0;
+    cursor:pointer;
+    height: 40px;
+    
+    
+}
+
+#containerRedesSociais{
+    width: 80px;
+    height: inherit;
+    float: left;
+    background-color: blueviolet;
+}
+
+
+#containerSlogan{
+    width: 100%;
+    height: 700px;
+    background-image: url(../imagens/tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.submenuItemD{ 
+    width: 210px;
+    height: 20px;
+    color: #000000;
+    text-align: center;
+    padding-top: 15px;
+    font-family: verdana;
+    font-size: 1em;
+    list-style: none;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
