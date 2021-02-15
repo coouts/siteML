@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>TECRLA</title>
+        <link rel="stylesheet" type="text/css" href="css/so.css">
+    </head>
+
+<!--SEÇÃO MENU-->
+    <body vlink="white">
+        <header id="containerMenu">
+        <div class="conteudo">
+            <div id="logo">
+            </div>
+            <ul id="menu">
+                <li class="menuItemInst">
+                    <a href="style.html">
+                    Página inicial
+                    </a>
+                </li>
+                <li class="menuItem">
+                    <a href="instituicao.html">
+                    Nossa Instituição
+                    </a>
+                </li>
+                <li class="menuItem">
+                    O que é um curso online
+                    <ul class="submenu">
+                        <li class="submenuItem">
+                            <a href="ead.html">
+                                Curso EAD
+                            </a>
+                        </li>
+                        <li class="submenuItem">
+                            <a href="online.html">
+                                Curso Online
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menuItem">
+                    Cursos Online
+                    <ul class="submenu">
+                        <li class="submenuItem">
+                            <a href="desenvolvimento.html">
+                                Desenvolvimento Web
+                            </a>
+                        </li>
+                        <li class="submenuItem">
+                            <a href="so.html">
+                                Sistemas Operacionais
+                            </a>        
+                        </li>
+                    </ul>    
+                </li>
+            </ul>
+        </div>   
+        </header>
+
+<!--Imagem de fundo-->
+            <div id="containerSlogan"></div>
+       
+<!--Sistemas operacionais texto-->
+    <div id="textoArquitetura">
+        <h3>Arquitetura de sistemas operacionais</h3>
+         <div class="conteudo">
+             <p> <b>- Definição:</b> É um software ou conjunto de softwares cuja função é administrar e gerenciar os recursos de um sistema, desde componentes de hardware e sistemas de arquivos a programas de terceiros, estabelecendo a 
+            interface entre o computador e o usuário. <br>  
+                <br>
+            <b>- Histórico: </b> Nos primórdios da computação, os computadores não possuíam sistema operacional, apenas existindo o hardware do computador. Operador e programador da máquina eram uma só pessoa, ou seja, todas as instruções necessárias ao funcionamento do hardware eram realizadas manualmente. Desta forma, todo o controle do sistema era feito através de botões e displays no console e o operador/programador monitorava a execução de um programa em tempo real. Sendo assim, os sistemas operacionais foram criados com a finalidade de tornar mais fácil e mais eficiente a utilização do computador. <br>
+            Na década de 60, os primeiros "sistemas operacionais" eram únicos, pois cada computador era vendido com um sistema operacional específico. Isto gerava grandes problemas, pois resultava em arquiteturas diferentes e de pessoal especializado que entendesse de cada sistema operacional. Após essa fase, iniciou-se a pesquisa de sistemas operacionais que automatizassem as tarefas, pois os sistemas eram monousuários e tinham cartões perfurados como entradas (eliminando, assim, o trabalho de pessoas que eram contratadas apenas para trocar os cartões perfurados).<br> <br>
+            Um dos primeiros sistemas operacionais que tiveram destaque, o CTSS, desenvolvido pelo Centro Computacional Instituto de Tecnologia Massachusetts (MIT). A versão do CTSS, disponibilizada para usuários, foi demonstrada no IBM 7090 no MIT em novembro de 1961 e começou a funcionar efetivamente em 1963, onde foi utilizada por pesquisadores de computadores dos Estados Unidos.<br>
+            Em 1953, surgiu o sistema operacional chamado Multics, que foi um projeto realizado em parceria com o Instituto de Tecnologia Massachusetts (MIT), pela General Eletric (GE) e pelos laboratórios Bell (Bell Labs) e American Telephone and Telegraph (AT&T). A intenção era de que o Multics tivesse características de tempo compartilhado (vários usuários compartilhando os recursos de um único computador), sendo assim o sistema mais arrojado da época. Em 1969, já existia uma versão do Multics rodando num computador GE645. <br>
+            A partir da década de 60, começou a ser desenvolvido o sistema operacional UNIX, que teve em seus princípios muitas inovações do Multics. O UNIX criou um ecossistema de versões e inovações, entre estes, destacam-se: System V e derivados - família BSD (FreeBSD, NetBSD, OpenBSD, etc..), Linux (e derivados), HP-UX, AIX, e até o Mac OS X (que é uma variante dos BSDs). Em 1973, outro pesquisador da Bell Labs, Dennis Ritchie, reescreveu todo o sistema Unix numa linguagem de alto nível, chamada C, desenvolvida por ele mesmo. Entre 1977 e 1981, a AT&T, alterou o Unix, fazendo algumas mudanças particulares e lançou o System III. Em 1983, após mais uma série de modificações, foi lançado o conhecido Unix System IV. Até hoje esse sistema é usado no mercado, tornando-se o padrão internacional do Unix, comercializado por empresas como IBM, HP, Sun. <br>
+            Na década de 70, quando começaram a surgir os primeiros computadores pessoais, houve a necessidade de um sistema operacional de fácil operacionalização (já que, desde então, os sistemas operacionais não facilitavam a vida do usuário leigo). Então, em 1980, William (Bill) Gates e seu colega de faculdade, Paul Allen, fundadores da Microsoft, compraram o sistema QDOS ("Quick and Dirty Operating System") de Tim Paterson por 50.000 dólares, batizaram-no de DOS (Disk Operating System) e licenciaram o software à IBM. O DOS fez tanto sucesso que foi utilizado como base para a tão conhecida família Windows. <br>
+            No começo dos anos 90, um estudante de computação finlandês publicou em uma lista de discussão da Internet, que estava desenvolvendo um núcleo de um sistema operacional e perguntou se alguém gostaria de auxiliá-lo nesta tarefa. Este estudante chamava-se Linus Torvalds e o primeiro passo em direção ao tão conhecido Linux foi dado naquele momento. <br>
+            <br>
+
+            <b>- Classificação em monotarefa: </b> executam uma tarefa de cada vez, como por exemplo: imprimir um arquivo. Praticamente não são mais utilizados hoje em dia, devido ao desperdício de recursos do computador que eles causam. O extinto MS-DOS da Microsoft é um exemplo de sistema operacional monotarefa.<br>
+            <br>
+            <b>- Classificação em multitarefa: </b> executam várias tarefas simultaneamente, como por exemplo: criar um desenho, tocar uma música e imprimir um documento. Sistemas Operacionais multitarefa conseguem maximizar a utilização dos recursos do computador. Até mesmo os sistemas operacionais de alguns aparelhos de telefone celular são multitarefa. Um exemplo é o MS-Windows XP. <br>
+            Os sistemas multitarefa podem ser classificados de acordo com a forma com que suas aplicações são gerenciadas, podendo ser divididos em: sistemas de tempo compartilhado e sistemas de tempo real. <br>
+
+            <br>
+                <br>
+            Confira abaixo alguma das imagens relacionadas:
+            </p>     
+        </div>     
+    </div>
+<!-- Imagem do arquitetura de sistemas operacionais-->
+        <div class="imagemArquitetura">
+            <div class="conteudo">
+               
+            </div>    
+        </div>
+        
+<!--Código aberto-->
+    <div id="textoAberto">
+        <h3>Sistema Operacional de código aberto:</h3>
+         <div class="conteudo">
+             <p><b> - Definição:</b> O Código Aberto é um termo que se refere a um software cujo código está disponível para download por qualquer pessoa e a uma filosofia de criação de aplicativos voltada para a colaboração entre desenvolvedores.
+            Um dos exemplos é o Linux foi criado com base no sistema GNU Public License. O seu código-fonte pode ser acessado e alterado por qualquer usuário do sistema. <br>
+            <br>
+            <b>- Sistema de arquivos:</b> Um sistema de arquivos é um conjunto de estruturas lógicas e de rotinas, que permitem ao sistema operacional controlar o acesso ao disco rígido. Diferentes sistemas operacionais usam diferentes sistemas de arquivos. Conforme cresce a capacidade dos discos e aumenta o volume de arquivos e acessos, esta tarefa torna-se mais e mais complicada, exigindo o uso de sistemas de arquivos cada vez mais complexos e robustos.
+            A lista de sistemas de arquivos suportados pelo Linux é muito grande. Atualmente, uma importante característica dos atuais sistemas de arquivos é o "journaling". Sistemas de arquivos que possuem essa característica são preferidos em detrimento aos que não possuem.
+            Journaling é um recurso que permite recuperar um sistema após um desastre no disco (ex.: quando um disco está sujo) em uma velocidade muito maior que nos sistemas de arquivos sem journaling. Sistemas de arquivos mais comuns disponíveis para o Linux: EXT2, EXT3, ReiserFS, XFS, JFS e muitos outros. <br> 
+            <br>
+                 <br>
+                 Confira abaixo o vídeo aula que mostrará o passo a passo da instalação e particionamento de disco:
+
+            </p>     
+        </div>     
+    </div>
+
+<!--video do código aberto-->
+        <div class="videoAberto">
+            <div class="conteudo">
+                <video controls="controls">
+                     <source src="imagens/htmlImagem.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        
+<!--texto código fechado-->
+    <div id="textoFechado">
+        <h3>Sistema Operacional de código fechado:</h3>
+         <div class="conteudo">
+             <p> <b>- Definição:</b> O código fechado ou software proprietário, é todo software que tem o código fonte suprimido ou que faça alguma restrição com relação a manipulação do código fonte. <br>
+            O software de código fechado são os distribuídos com uma licença e não pode ser modificado ou adaptado pelo usuário, como é o caso do IOS e do Windows. <br>
+            <br> 
+            <b>- Sistema de arquivos:</b> No mundo Windows, temos apenas três sistemas de arquivos: FAT16, FAT32 e NTFS. O FAT16 é o mais antigo, usado desde os tempos do MS-DOS, enquanto o NTFS é o mais complexo e atual. <br>   
+             <br>
+                 <br>
+                 Confira abaixo o vídeo aula que mostrará o passo a passo da instalação e particionamento de disco:
+
+            </p>     
+        </div>     
+    </div>
+
+<!--video do código fechado-->
+        <div class="videoFechado">
+            <div class="conteudo">
+                <video controls="controls">
+                     <source src="imagens/cssHorizontal.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        
+        
+<!--SEÇÃO RODAPE-->
+        <footer id="rodapeConteudo">
+            <div class="conteudo">
+                <div id="logoDois"></div>
+            <div class="redesSociais">
+              <div class="conteudo">  
+                  <div class="entreEmContato">
+                       Entre em contato <br>
+                        <br>
+                        Instagram: @tecrla <br>
+                        Facebook: Tecrla <br>
+                        E-mail: tecnologiarla@gmail.com
+                </div>
+              </div>    
+            </div>
+            </div>
+        </footer>
+        <footer id="rodapeConteudo1">
+            <div class="conteudo">
+                <div class = "rodapeEndereco">
+                São Paulo, SP - Jandira -  Rua Elton Silva, 905 - Centro, 2021 © TECRLA   
+                </div>
+            </div>    
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
