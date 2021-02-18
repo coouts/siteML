@@ -12,6 +12,10 @@ a:link{
     text-decoration: none;
 }
 
+a:visited{ 
+    color: #ffffff;
+}
+
 a:hover{
 	color: #51eaf0;
 }
@@ -309,7 +313,6 @@ h4::first-letter{
 #containerProfessores{
     width: 100%;
     height: 400px;
-    background-color: crimson;
     color: #ffffff;
     margin-left: 00px;
     margin-right: 400px;

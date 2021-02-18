@@ -12,10 +12,13 @@ a:link{
     text-decoration: none;
 }
 
+a:visited{
+    color: #ffffff;
+}
+
 a:hover{
 	color: #51eaf0;
 }
-
 p{
     width: 650px;
     min-height:20px;
@@ -202,6 +205,29 @@ h3::first-letter{
     padding-top: 20px;
     padding-left: 550px;
 
+}
+
+.imagemArq{
+    width: 380px;
+    height: 280px;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 70px;
+    background-image: url(../imagens/bill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    
+}
+
+.imagemDoisArq{
+    width: 350px;
+    height: 280px;
+    background-color:blueviolet;
+    float: left;
+    margin-top: 70px;
+    background-image: url(../imagens/fig5.jpg);
+    background-repeat: no-repeat;
 }
 
 /** Código aberto**/
